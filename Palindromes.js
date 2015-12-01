@@ -5,8 +5,6 @@ function palindrome(str) {
   var myStringArray = str.split();
   var myPalindromeArray = palindromeStr.split('').reverse();
   palindromeStr = myPalindromeArray.join('');
-  console.log("Compare 1: "+str);
-  console.log("Compare 2: "+palindromeStr);
   if (palindromeStr === str)
     {
       return true;
